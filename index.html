@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntas para alejandra</h1>
+        <div id="qa-container">
+            <div class="qa" id="qa1">
+                <p class="question">¿Qué día comenzaos a hablar?</p>
+                <input type="text" id="answer1" placeholder="Escribe tu respuesta aquí">
+            </div>
+            <div class="qa hidden" id="qa2">
+                <p class="question">¿Color favorito?</p>
+                <input type="text" id="answer2" placeholder="Escribe tu respuesta aquí">
+            </div>
+            <div class="qa hidden" id="qa3">
+                <p class="question">¿Jugador favorito?</p>
+                <input type="text" id="answer3" placeholder="Escribe tu respuesta aquí">
+            </div>
+        </div>
+        <button id="next-btn">Siguiente</button>
+        <p id="error-message" class="hidden">Respuesta incorrecta. Inténtalo de nuevo.</p>
+        <div id="flower-container" class="hidden">
+            <div class="flower"></div>
+            <p id="final-message" class="hidden">¡Felicidades! Has respondido todas las preguntas correctamente.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
