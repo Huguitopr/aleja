@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Respuestas correctas
     const correctAnswers = [
-        '18 de marzo', // Respuesta para la primera pregunta
+        '17 de marzo', // Respuesta para la primera pregunta
         'azul', // Respuesta para la segunda pregunta
         'cristiano ronaldo' // Respuesta para la tercera pregunta
     ];
